@@ -1,0 +1,100 @@
+body {
+	font-family: verdana, sans-serif;
+	font-size: small;
+}
+
+.header {
+	background: linear-gradient(to left, #FFFFFF, #809fff);
+	color: #FFF;
+	padding: 10px;
+	font-style: bold;
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.menu {
+	background: #e6ecff;
+	padding-left: 10px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	margin-top: 3px;
+}
+
+.menu a {
+	text-decoration: none;
+	color: #000;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: small;
+	display: inline-flex;
+	align-items: center;
+	gap: 5px;
+}
+
+.menu img {
+	width: 16px;
+	height: 16px;
+}
+
+.layout {
+	display: flex;
+	width: 100%;
+}
+
+.side-menu {
+	background: #e6ecff;
+	padding: 5px;
+	width: 20%;
+	vertical-align: top;
+	margin-top: 3px;
+}
+
+.category-menu {
+	padding: 5px;
+	display: block;
+}
+
+.title-menu-side {
+	font-size: small;
+	font-style: bold;
+	display: block;
+	padding-top: 5px;
+	padding-bottom: 2px;
+}
+
+.list-menu-side {
+	font-size: small;
+	display: block;
+	padding-bottom: 2px;
+	padding-top: 2px;
+	color: blue;
+}
+
+.content {
+	padding: 10px;
+	width: 80%;
+	vertical-align: top
+}
+
+.left-menu {
+	padding: 5px;
+	width: 20%;
+}
+
+.text-small {
+	font-size: small;
+}
+
+.border-default{
+	border-style: solid;
+	border-width: thin;
+	border-color: #2f2f2f;
+}
+
+.footer{
+	background-color: #809fff;
+	padding: 10px;
+	text-align: center;
+	font-weight: bold;
+}
